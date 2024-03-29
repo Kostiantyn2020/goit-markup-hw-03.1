@@ -318,6 +318,13 @@ button {
     background-color: #FFFFFF;
 }
 
+.name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
 .our-portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -355,6 +362,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-studio {
