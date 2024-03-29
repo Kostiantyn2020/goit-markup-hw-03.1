@@ -34,10 +34,13 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
+    width: 1158px;
+    padding: 24px 0;
 }
 
 .header-nav {
@@ -73,6 +76,7 @@ img {
     color: #2e2f42;
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 
@@ -141,6 +145,7 @@ address {
 
 .section {
     padding-bottom: 308px;
+    padding: 188px 0;
 }
 
 .section-title {
@@ -152,6 +157,7 @@ address {
     color: #fff;
     margin: 0 auto;
     padding-top: 188px;
+    max-width: 496px;
 }
 
 button {
@@ -164,6 +170,11 @@ button {
     background-color: #4D5AE5;
     cursor: pointer;
     margin: 0 auto;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button:hover {
@@ -179,11 +190,20 @@ button {
 
 .information {
     padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .information-list {
     display: flex;
     gap: 24px;
+}
+
+.information-list {
+    width: calc((100% - 24px * 3) / 4);
+}
+
+.information-subject {
+    .visually-hidden;
 }
 
 .information-subtitle {
@@ -192,6 +212,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .information-item-text {
@@ -206,7 +227,7 @@ button {
 /*------------section3--------------------*/
 
 .our-team {
-    padding-bottom: 272px;
+    padding: 120px 0;
 }
 
 .our-team {
@@ -221,17 +242,24 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-
+    margin-bottom: 72px;
 }
 
 .our-team-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
 .our-team-list .our-team-item {
     background-color: #FFFFFF
+}
+
+.command-div {
+    padding: 32px 0;
+
 }
 
 .command-subtitle {
