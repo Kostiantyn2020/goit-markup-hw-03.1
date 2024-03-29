@@ -5,6 +5,45 @@ body {
     background-color: #FFFFFF;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -13,7 +52,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -32,7 +71,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
+    gap: 40px;
 }
+
 
 .nav:hover {
     color: #404bbf;
@@ -45,6 +87,15 @@ body {
 address {
 
     font-style: normal;
+}
+
+.kontakt-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-kontakt {
+    margin-left: auto;
 }
 
 .kontakt {
@@ -79,7 +130,18 @@ address {
     background-color: #2e2f42;
 }
 
+.container {
+    width: 1470;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /*----------section1-------*/
+
+.section {
+    padding-bottom: 308px;
+}
 
 .section-title {
     font-weight: 700;
@@ -88,6 +150,8 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 0 auto;
+    padding-top: 188px;
 }
 
 button {
@@ -99,6 +163,7 @@ button {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .button:hover {
@@ -111,6 +176,15 @@ button {
 }
 
 /*-----------section2------------------*/
+
+.information {
+    padding-bottom: 120px;
+}
+
+.information-list {
+    display: flex;
+    gap: 24px;
+}
 
 .information-subtitle {
     font-weight: 500;
@@ -132,6 +206,10 @@ button {
 /*------------section3--------------------*/
 
 .our-team {
+    padding-bottom: 272px;
+}
+
+.our-team {
     background-color: #F4F4FD
 }
 
@@ -145,6 +223,12 @@ button {
     text-transform: capitalize;
 
 }
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
 
 .our-team-list .our-team-item {
     background-color: #FFFFFF
@@ -182,6 +266,13 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+}
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 48px;
+    width: calc((100% - 2 * 24) / 3);
 }
 
 .our-portfolio-list {
