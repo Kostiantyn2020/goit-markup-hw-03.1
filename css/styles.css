@@ -31,6 +31,17 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -203,11 +214,6 @@ button {
 
 .information-item {
     width: calc((100% - 72px) / 4);
-}
-
-.visually-hidden {
-    position: fixed;
-    transform: scale(0);
 }
 
 .information-subtitle {
