@@ -205,7 +205,9 @@ button {
     width: calc((100% - 72px) / 4);
 }
 
-.information-subject visually-hidden {}
+.information-subject {
+    visually-hidden;
+}
 
 .information-subtitle {
     font-weight: 500;
@@ -304,6 +306,10 @@ button {
     margin-bottom: 72px;
 }
 
+.our-portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
+
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -331,6 +337,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-text {
