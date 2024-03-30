@@ -205,7 +205,7 @@ button {
     width: calc((100% - 72px) / 4);
 }
 
-.information-subject .visually-hidden {
+.visually-hidden {
     position: fixed;
     transform: scale(0);
 }
