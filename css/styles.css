@@ -45,16 +45,11 @@ img {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
-    width: 1158px;
-    padding: 24px 0;
-    padding: 0 15px;
 }
 
 .header-nav {
@@ -84,6 +79,11 @@ img {
 }
 
 .nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -92,9 +92,7 @@ img {
     display: flex;
     gap: 40px;
     padding: 24px 0;
-
 }
-
 
 .nav:hover {
     color: #404bbf;
@@ -151,7 +149,7 @@ address {
 }
 
 .container {
-    width: 1470;
+    width: 1158;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -171,9 +169,10 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 0 auto;
-    padding-top: 188px;
+    margin: left right auto;
     max-width: 496px;
+    margin-bottom: 48px;
+
 }
 
 button {
@@ -299,7 +298,7 @@ button {
 /*------------section4--------------------*/
 
 .our-portfolio {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -335,7 +334,6 @@ button {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .our-portfolio-subtitle {
@@ -363,10 +361,7 @@ button {
     padding: 100px 0;
 }
 
-.footer-div {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+.footer-div {}
 
 .footer-link {
     font-family: "Raleway", sans-serif;
@@ -382,7 +377,6 @@ button {
 
 .footer-studio {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
@@ -394,4 +388,5 @@ button {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     line-height: 1.5;
+    max-width: 264px;
 }
